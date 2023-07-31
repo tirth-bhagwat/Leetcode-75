@@ -12,6 +12,7 @@ mod reverse_words_in_a_string;
 mod product_of_array_except_self;
 mod increasing_triplet_subsequence;
 mod string_compression;
+mod move_zeroes;
 
 fn main() {
     println!("Hello, world!");
