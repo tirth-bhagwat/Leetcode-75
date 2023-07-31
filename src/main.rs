@@ -10,6 +10,7 @@ mod merge_strings_alternately;
 mod reverse_vowels_of_a_string;
 mod reverse_words_in_a_string;
 mod product_of_array_except_self;
+mod increasing_triplet_subsequence;
 
 fn main() {
     println!("Hello, world!");
