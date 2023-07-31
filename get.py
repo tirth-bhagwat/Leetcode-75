@@ -16,4 +16,15 @@ tmp = tmp[: tmp.index("/")]
 name = tmp.replace("-", "_")
 
 with open(TARGET_DIR + name + ".rs", "w") as f:
-    f.write(f"// {SEARCH}{name.replace('_', '-')}/\n\n")
+    f.write(
+        f"""
+// {SEARCH}{name.replace('_', '-')}/
+
+struct Solution {{}}
+
+impl Solution {
+    {}
+}
+
+"""
+    )
