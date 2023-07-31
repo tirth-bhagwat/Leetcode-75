@@ -8,6 +8,7 @@ mod gcd;
 mod kids_with_the_greatest_number_of_candies;
 mod merge_strings_alternately;
 mod reverse_vowels_of_a_string;
+mod reverse_words_in_a_string;
 
 fn main() {
     println!("Hello, world!");
